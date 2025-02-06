@@ -1,10 +1,6 @@
-let myName = "Huy"
-let myAge = 28
-let myShoeSize = 40
+const myH1 = document.querySelector("h1");
+console.log('myH1:', myH1);
 
-console.log('myName:', myName)
-console.log('myShoeSize:', myShoeSize)
-console.log('myAge:', myAge)
-
+myH1.style.backgorund = "green";
 
 
